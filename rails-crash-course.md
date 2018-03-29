@@ -4,13 +4,13 @@ autoscale: true
 
 # [fit] Ruby on Rails
 
-![fit filtered](tiy-logo-white.png)
+![fit filtered](suncoast.png)
 
 ---
 
 # [fit] Gavin Stark
 
-## [fit] Back End Ruby Instructor
+## [fit] Instructor - Suncoast Developers Guild
 
 ## [fit] Co Organizer of The Tampa Ruby Brigade
 
@@ -24,7 +24,7 @@ autoscale: true
 
 # [fit] Tampa Ruby Brigade
 
-## [fit] 10 Years Old
+## [fit] > 10 Years Old
 
 -
 
@@ -76,13 +76,8 @@ autoscale: true
 
 ---
 
-![autoplay](http_rfc.mp4)
-
----
-
 # Who uses Rails anyway?
 
-- The Iron Yard
 - 500px
 - Airbnb
 - Dribble
@@ -125,6 +120,13 @@ autoscale: true
 - Environments built in (dev, test, prod)
 - Database migrations
 
+^ Lets just skip over the "bikeshedding" that typically happens
+^ DRY: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system
+^ Testing built in means that it is more likely to happen
+^ Default, smart, tries to be secure-by-default defaults for development, test, and production
+^ Migrations: How do we keep track of the changing state of the database over time. As we change code
+^             we also change the database, migrations keeps these in sync.
+
 ---
 
 # Application patterns
@@ -133,6 +135,14 @@ autoscale: true
 - ActiveRecord
 - Extends Ruby
 - DSL
+
+^ Every Rails app follows a common folder structure
+^ Any Rails app you pick up will feel familiar
+^ ActiveRecord allows us to think about our data in objects instead of piles of SQL statements
+^ Rails extends Ruby with new features, several of which have been brought back to Ruby itself
+^ "Domain Specific Langauge" - using a programming language's syntax to allow programmers to
+^                              author code in a way that feels familiar to the domain (business,
+^                              type of problem, etc.)
 
 ---
 
@@ -172,7 +182,7 @@ autoscale: true
 
 # ActiveRecord
 
-- Typically to map table to object
+- Typically used to map tables to objects
 - Determines attributes by reflection
 - Base class exposes creating, find, update, delete API
 
@@ -197,10 +207,6 @@ end
 
 # Database Migrations
 
-
----
-
-![fit](migrations.mp4)
 
 ---
 
@@ -243,32 +249,47 @@ end
   - ruby-install
   - rvm
   - homebrew (mac)
-  - third party repo with an up-to-date ruby (2.2 or later)
+  - third party repo with an up-to-date ruby (2.4 or later)
 - Fortunately, we can use a cloud based environment for this course
 
 ---
 
-# Cloud 9
+# Code Anywhere
 
-- Login to `c9.io`
+- Login to `codeanywhere.com`
 - Register for free account
-  - Credit card required: 😠
-- Click: *Create a new workspace*
+- Click: *Create a new project*
 
 ---
 
-# Cloud 9
+# Code Anywhere
 
-- Enter a workspace name (`foodtruck`)
-- Choose Hosted
-- Choose Public
+- Enter a projct name (`Food Truck`)
+- Open Project
+- Choose `git from URL`
 - Enter this as the URL:
-  - `https://github.com/tiy-tpa-ruby/food-truck.git`
-- Select *Ruby* as the template
-- Click 'Create workspace'
+  - `https://github.com/suncoast-devs/food-truck.git`
+- Enter a container name ('Food Truck')
+- Type `ruby` into "Search Stack"
+- Choose the `ruby` entry that mentions `Ubuntu` in the last column
 
 ---
 
 # [fit] Lets code!!
 
 ---
+
+# Cheat sheet:
+
+-
+-
+-
+
+# [fit] `https://gist.github.com/gstark/4818d620286dbccb0d0f`
+
+or (shorter URL)
+
+# [fit] `http://bit.ly/2GjwjIn`
+
+---
+
